@@ -154,7 +154,17 @@ iframe{
   margin-left: 20%;
   margin-right: 20%;
 }
-
+.descriptionchin {
+  background: #ffffff;
+  font-family: 
+  "Microsoft YaHei", "微软雅黑",
+  sans-serif;
+  font-size: 115%;
+padding-left: 20px;
+padding-right: 20px;
+color: rgb(98, 107, 105);
+max-width: 705px;
+}
 .description {
   background: #ffffff;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
