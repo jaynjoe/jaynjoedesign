@@ -1,0 +1,60 @@
+/*
+ body{
+    margin: 4%;
+
+}
+
+header{
+  /* background: #00ff00 url("imgs/oceans.jpg") no-repeat fixed center; 
+  background: #00b7ea;
+  text-align: center;
+  padding: 15px;
+}
+section{
+  width: 30%;
+  display: inline-block;
+  float: left;
+  margin-right: 2%
+}
+footer{
+  clear:both;
+}
+img{
+  width:75px;
+}
+body{
+  margin: 4%;
+    background: #FFFF00;
+    background: url('../support/img/4.png');
+  background-position: center center;
+  background-size: 100% 100%;
+}
+*/
+body{
+    margin: 4%;
+    background: url('../img/JJBackGround.jpg') fixed;
+}
+header{
+   /*  background: url('../img/waterroom.jpg') no-repeat center; */ 
+    background: #00b7ea;
+    text-align: center;
+    padding: 15px;
+  }
+  nav{
+    background: #e2ba09;
+	font-variant: small-caps;
+	font-family: Arial, "Times New Roman", serif;
+	font-size: 150%;
+}
+.dx{
+    overflow-y: hidden;
+    white-space: nowrap;
+    }
+.xc{
+    display:inline-block;
+    margin-right: 0%
+    }
+  .vd {
+    padding: 15px;
+     display：center；
+  }

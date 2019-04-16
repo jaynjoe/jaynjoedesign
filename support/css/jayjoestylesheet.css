@@ -1,0 +1,183 @@
+/* 
+ body{
+    margin: 4%;
+
+}
+
+header{
+  /* background: #00ff00 url("imgs/oceans.jpg") no-repeat fixed center; 
+  background: #00b7ea;
+  text-align: center;
+  padding: 15px;
+}
+section{
+  width: 30%;
+  display: inline-block;
+  float: left;
+  margin-right: 2%
+}
+footer{
+  clear:both;
+}
+img{
+  width:75px;
+}
+body{
+  margin: 4%;
+    background: #FFFF00;
+    background: url('../support/img/4.png');
+  background-position: center center;
+  background-size: 100% 100%;
+}
+
+.dx{
+    overflow-y: hidden;
+    white-space: nowrap;
+    }
+.xc{
+    display:inline-block;
+    margin-right: 0%
+    }
+  .vd {
+    padding: 15px;
+     display：center；
+  }
+*/
+body{
+  background:  #7c7b7b;
+  background: url('../img/triangleSmall.jpg') fixed;
+
+}
+header{
+    background: #2b2a2a;
+    width:100%;
+    position: fixed;
+    text-align: center;
+    padding: 0px 15px 15px 15px;
+  }
+  h1{
+    text-align: left;
+    color:#ffffff;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+  }
+  #logo{
+    float: right;
+    position: fixed right;
+  }
+  nav{
+	font-variant: small-caps;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 150%;
+}
+nav a{
+	display: inline-block;
+  text-align: center;
+  width:20%;
+  margin-right: 1%;
+  color:#ffffff;
+  text-decoration:none;
+
+}
+.category{
+  margin-left: 7%;
+  margin-right: auto;
+}
+section a{
+  text-decoration:none;
+}
+.xc{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  padding-left: 1%;
+  padding-bottom: 1%;
+}
+.vd{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.chin{
+  font-family: 
+  "Microsoft YaHei", "微软雅黑",
+  sans-serif;
+}
+.eng{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.mainCompany{ 
+  background: #d1cfcf;
+  color: rgb(0, 0, 0);
+	font-variant: small-caps;
+  font-size: 145%;
+  padding-left:22%;
+  padding-right:22%;
+  margin-left: 8%;
+  margin-right: 7.2%;
+
+}
+
+footer{
+  background: #2b2a2a;
+  text-align: center;
+  padding:15px;
+}
+.foot{
+  color:#ffffff;
+}
+
+.contact{
+  background: #ffffff;
+  color: rgb(98, 107, 105);
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  padding-left:5%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.cti{
+  margin-left: 40%;
+  margin-right: 40%;
+}
+iframe{
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+.app {
+  
+  align-items: start;
+  display: -webkit-flex;
+  display: flex;
+  padding-left:5%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.description {
+  background: #ffffff;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+padding-left: 20px;
+color: rgb(98, 107, 105);
+max-width: 705px;
+}
+
+.projectpics{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.prchin{
+  font-family: 
+  "Microsoft YaHei", "微软雅黑",
+  sans-serif;
+  background:  #7c7b7b;
+  color:#ffffff;
+  font-size: 145%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+
+}
