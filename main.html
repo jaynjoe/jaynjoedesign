@@ -5,29 +5,64 @@
   <title>Jay&Joe Design</title>
   <link rel="icon" type="img/png" href="support/img/JJLogo.png">
   <link rel="stylesheet" href="support/css/jayjoestylesheet.css">
-</head>
-    <body>
-        <header>  
-                <figure>
-                        <img src = "support/img/JJLogo.png"  id="logo" width = "40px" alt = "Jay&Joe Logo">
-                      </figure>
-            <h1>Jay&Joe Design 双杰设计</h1>
-            <nav>
-                    <ul>
-                            <li><a href="ourwork.html" target="_blank">Our Work<br/>项目</a>
-                                <ul>
-                                <li><a href="ourwork.html" target="_blank">项目展示</a></li>
-                                <li><a href="https://kuula.co/post/7YwJT" target="_blank">360展示</a></li>
-                           </ul>
-                           </li>
-                      <li><a href="aboutus.html" >About Us<br/>关于我们</a></li>
-                      <li><a href="culture.html">Culture<br/>设计理念</a></li>
-                      <li><a href="contactus.html">Contact Us<br/>联系方式</a></li>
-                    </ul>
-                  </nav>
-            </header>
-            <section class="category">
-                </br></br></br></br></br></br></br></br></br></br>
+  </head>
+	<body>
+			<header>  
+					<figure>
+							<img src = "support/img/JJLogo.png"  id="logo" width = "40px" alt = "Jay&Joe Logo">
+						  </figure>
+				<h1>Jay&Joe Design 双杰设计</h1>
+				<nav>
+						<ul>
+								<li><a href="ourwork.html" target="_blank">Our Work<br/>项目</a>
+									<ul>
+									<li><a href="ourwork.html" target="_blank">项目展示</a></li>
+									<li><a href="https://kuula.co/post/7YwJT" target="_blank">360展示</a></li>
+							   </ul>
+							   </li>
+						  <li><a href="aboutus.html" >About Us<br/>关于我们</a></li>
+						  <li><a href="culture.html">Culture<br/>设计理念</a></li>
+						  <li><a href="contactus.html">Contact Us<br/>联系方式</a></li>
+						</ul>
+					  </nav>
+				</header>
+
+		<div class="pb-carouselWarp demo1">
+		</br></br></br></br></br></br></br>
+			<ul class="pb-carousel">
+				<li class="pb-this"><img src="support/img/1.jpg" height= 1080px alt="" /></li>
+				<li><img src="support/img/2.jpg" height= 1080px alt=""/></li>
+				<li><img src="support/img/3.jpg" height= 1080px alt=""/></li>
+				<li><img src="support/img/4.jpg" height= 1080px alt=""/></li>
+				<li><img src="support/img/5.jpg" height= 1080px alt=""/></li>
+			</ul>
+			<ul class="pb-carousel-ind">
+				<li class="pb-this"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<button class="pb-arrow pb-arrow-prev"></button>
+			<button class="pb-arrow pb-arrow-next" id="aa"></button>
+		</div>
+
+	<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+	<script src="js/carousel.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		carousel(
+			$('.demo1'),	//必选， 要轮播模块(id/class/tagname均可)，必须为jQuery元素
+			{
+				type: 'leftright',	//可选，默认左右(leftright) - 'leftright' / 'updown' / 'fade' (左右/上下/渐隐渐现)
+				arrowtype: 'move',	//可选，默认一直显示 - 'move' / 'none'	(鼠标移上显示 / 不显示 )
+				autoplay: true,	//可选，默认true - true / false (开启轮播/关闭轮播)
+				time:3000	//可选，默认3000
+			}
+		);
+
+	</script>
+	 <section class="category">
+		</br>
             <a  href="ourwork.html" target="_blank">
                <img class= "xc" src="support/img/11.jpg" width= "50%" alt="精品家装">
                         </a>
@@ -51,7 +86,7 @@
         </br>
             </section>
             <section>
-              </br>
+                </br>
                     <video class= "vd" src="support/video/jj.mp4" width= "50%" controls loop autoplay muted id：video>
                         
                     </video>
@@ -73,6 +108,6 @@
                 <p class="foot">All rights reserved to JAY&JOE Design, Thanks for visiting!</p>
                 <img src = "support/img/JJLogo.png" width = "40px" alt = "Jay&Joe Logo">
             </footer>
+</html>
 
-    </body>
-    </html>
+    <link rel="stylesheet" href="support/css/jayjoestylesheet.css">
