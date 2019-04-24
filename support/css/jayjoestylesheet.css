@@ -161,8 +161,8 @@ nav li ul li {
   left: 0;
 }
 .pb-carouselWarp .pb-carousel li img {
-  width: 2560px;
-  height: 1440px;
+  width: 100%;
+  height: auto;
   vertical-align: middle;
 }
 .pb-carouselWarp .pb-carousel .pb-this {
