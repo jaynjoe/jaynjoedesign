@@ -251,14 +251,20 @@ nav li ul li {
 }
 /* Sub Menus */
 a:hover{
-  opacity:0.8;
+  opacity:1;
+}
+.current{
+  color: #05eb9e;
 }
 .category{
   margin-left: 7%;
   margin-right: auto;
 }
+/* 四方图块 */
 section a{
   text-decoration:none;
+  opacity:0.8;
+  transition: .5s;
 }
 .xc{
   display: inline-block;
