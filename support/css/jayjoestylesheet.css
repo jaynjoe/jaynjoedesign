@@ -364,7 +364,7 @@ iframe{
 
 }
 /* Media query */
-@media only screen and (min-width: 780px) {
+@media only screen and (min-width: 900px) {
   .mainCompany{ 
 
     padding-left:22%;
