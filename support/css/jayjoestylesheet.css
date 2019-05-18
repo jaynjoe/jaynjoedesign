@@ -162,7 +162,7 @@ nav li ul li {
   height: auto;
   vertical-align: middle;
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 120000px) {
   .pb-carouselWarp .pb-carousel li img {
     width: 100%;
     height: auto;
