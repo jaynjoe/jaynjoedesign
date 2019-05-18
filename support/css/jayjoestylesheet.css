@@ -162,7 +162,7 @@ nav li ul li {
   height: auto;
   vertical-align: middle;
 }
-@media only screen and (min-width: 120000px) {
+@media only screen and (min-width: 1200px) {
   .pb-carouselWarp .pb-carousel li img {
     width: 100%;
     height: auto;
@@ -364,7 +364,7 @@ iframe{
 
 }
 /* Media query */
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1200px) {
   .mainCompany{ 
 
     padding-left:22%;
