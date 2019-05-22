@@ -52,83 +52,136 @@ html,body{
     background-color:#rgb(240, 240, 240)
 }
 header{
-  background: #2b2a2a;
-  width:100%;
+  background: #2b2a2a85;
+  width:30%;
+  height: 8.5vh;
   position: fixed;
-  text-align: center;
-  padding: 0px 15px 6px 15px;
+  margin-left:95%;
   z-index:100;
+  			transition-duration: .5s;
+  			transition-timing-function: linear;
+
+  			/*transition: .5s linear .5s; */
 }
+@media only screen and (max-width: 1200px) {
+  header:hover{
+    height: 100vh;
+    margin-left:70%;
+  }
+  }
+
 h1{
-  text-align: left;
-  color:#ffffff;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  display:none;
 }
 #logo{
-  float: right;
-  position: fixed right;
+  position: fixed;
+  display:block;
   margin-top:1%;
-  margin-right:2%;
+  margin-left:0.5%;
 }
 nav{
-font-variant: small-caps;
-font-family: "Trebuchet MS", Helvetica, sans-serif;
-font-size: 150%;
-}
-nav ul {
-list-style: none;
-background: #2b2a2a;
-text-align: center;
-padding: 0;
-margin: 0;
-}
-
-nav li {
-  width: 20%;
-  height: 38px;
-  line-height: 38px;
-  display: inline-block;
-  margin-right: -4px;
-}
-
+  font-variant: small-caps;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 150%;
+  }
+  nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-top:25%;
+  margin-bottom:15%;
+  }
+  
+  nav li {
+    display: block;
+  }
 nav a {
-text-decoration: none;
-color: #fff;
-display: block;
-padding-left: 8px;
-transition: .5s background-color, color;
-}
-
-nav a:hover {
-background-color: #ffffff;
-color:#000000;
-}
-
-nav a.active {
-background-color: #aaa;
-color: #444;
-cursor: default;
-}
-
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding-left: 8px;
+  transition: .5s background-color, color;
+  }
+  
+  nav a:hover {
+  background-color: #ffffff;
+  color:#000000;
+  }
+  
+  nav a.active {
+  background-color: #aaa;
+  color: #444;
+  cursor: default;
+  }
+@media only screen and (min-width: 1200px) {
+  header{
+    background: #2b2a2a;
+    width:100%;
+    height: 12vh;
+    margin-left:0;
+    position: fixed;
+    text-align: center;
+    padding: 0px 15px 6px 15px;
+    z-index:100;
+    visibility:visible;
+  }
+  h1{
+    display: block;
+    text-align: left;
+    color:#ffffff;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+  }
+  #logo{
+    position: relative;
+    float: right;
+    position: fixed right;
+    margin-top:1%;
+    margin-right:2%;
+  }
+  nav{
+    font-variant: small-caps;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 150%;
+    }
+    nav ul {
+    list-style: none;
+    background: #2b2a2a;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top:0%;
+    margin-bottom:0%;
+    }
+    
+    nav li {
+      width: 20%;
+      height: 38px;
+      line-height: 38px;
+      display: inline-block;
+      margin-right: -4px;
+    }
+  
+} 
 /* Sub Menus */
 nav li li {
-font-size: .7em;
-}
-
-nav > ul > li {
- text-align: center;
-}
-
-nav > ul > li > a {
-  padding-left: 0;
-}
-
-/* Sub Menus */
-nav li ul {
-  position: absolute;
-  display: none;
-  width: inherit;
-}
+  font-size: .7em;
+  }
+  
+  nav > ul > li {
+   text-align: center;
+  }
+  
+  nav > ul > li > a {
+    padding-left: 0;
+  }
+  
+  /* Sub Menus */
+  nav li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+  }
 @media only screen and (min-width: 1200px) {
 nav li:hover ul {
  display: block;
@@ -415,7 +468,7 @@ iframe{
   .image{
     display:inline-block;
     margin-left: 0%;
-    margin-right:0%
+    margin-right:0%;
   }
   .vd{
     width: 60%;
@@ -465,3 +518,4 @@ iframe{
   
   }
  }
+
