@@ -144,6 +144,7 @@ nav a {
     font-variant: small-caps;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 150%;
+    margin-left:-2%;
     }
     nav ul {
     list-style: none;
@@ -369,6 +370,26 @@ section a{
     padding-bottom: 1%;
   }
 }
+
+@media only screen and (min-width: 1600px) {
+  .category0{
+    display:none;
+    }
+    .category{
+      display: inline-block;
+      margin-left: 7%;
+      margin-right: auto;
+    }
+    .xc{
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 22%;
+      padding-left: 1%;
+      padding-bottom: 1%;
+    }
+  }
+
 .vd{
   display: block;
   margin-left: auto;
@@ -531,4 +552,5 @@ iframe{
     text-align: center;
   
   }
+
  }
