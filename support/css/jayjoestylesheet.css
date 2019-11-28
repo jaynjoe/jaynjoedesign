@@ -51,6 +51,9 @@ html,body{
     height: 100%;
     background-color:#rgb(240, 240, 240)
 }
+.gap{
+  display:block;
+ }
 header{
   background: #2b2a2a00;
   width:30%;
@@ -64,6 +67,9 @@ header{
   			/*transition: .5s linear .5s; */
 }
 @media only screen and (max-width: 1200px) {
+  .gap{
+    display:none;
+   }
   header:hover{
     background: #2b2a2a85;
     height: 100vh;
