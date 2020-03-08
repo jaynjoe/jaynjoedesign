@@ -421,6 +421,13 @@ section a{
   margin-right: 7%;
 
 }
+.recentProjectTitle{ 
+  color: rgb(0, 0, 0);
+	font-variant: small-caps;
+  font-size: 145%;
+  text-align:center;
+
+}
 
 footer{
   background: #2b2a2a;
